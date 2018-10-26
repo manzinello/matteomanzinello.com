@@ -20,15 +20,28 @@ class App extends Component {
             </span>
           </p>
           <p>
-            <Icon type="instagram" theme="outlined" />
+            <a
+              className={"a-icon"}
+              href="https://www.instagram.com/manzinello/"
+            >
+              <Icon type="instagram" theme="outlined" />
+            </a>
             {"  "}
-            <Icon type="twitter" theme="outlined" />
+            <a className={"a-icon"} href="https://twitter.com/mmanzinello">
+              <Icon type="twitter" theme="outlined" />
+            </a>
             {"  "}
-            <Icon type="facebook" theme="filled" />
+            <a className={"a-icon"} href="https://www.facebook.com/manzinello">
+              <Icon type="facebook" theme="filled" />
+            </a>
             {"  "}
-            <Icon type="github" theme="filled" />
+            <a className={"a-icon"} href="https://github.com/manzinello">
+              <Icon type="github" theme="filled" />
+            </a>
             {"  "}
-            <Icon type="mail" theme="outlined" />
+            <a className={"a-icon"} href="mailto:ciao@matteomanzinello.com">
+              <Icon type="mail" theme="outlined" />
+            </a>
           </p>
           <img src={react} className="App-logo" alt="logo" />
         </div>
