@@ -12,31 +12,36 @@ const iconLinks = [
     type: "instagram",
     theme: "outlined",
     text: "Follow @manzinello on Instagram",
-    link: "https://www.instagram.com/manzinello/"
+    link: "https://www.instagram.com/manzinello/",
+    target: true
   },
   {
     type: "twitter",
     theme: "outlined",
     text: "Follow @mmanzinello on Twitter",
-    link: "https://twitter.com/mmanzinello"
+    link: "https://twitter.com/mmanzinello",
+    target: true
   },
   {
     type: "facebook",
     theme: "filled",
     text: "Follow @manzinello on Facebook",
-    link: "https://www.facebook.com/manzinello"
+    link: "https://www.facebook.com/manzinello",
+    target: true
   },
   {
     type: "github",
     theme: "filled",
     text: "@manzinello on GitHub",
-    link: "https://github.com/manzinello"
+    link: "https://github.com/manzinello",
+    target: true
   },
   {
     type: "mail",
     theme: "outlined",
     text: "Send an email to Matteo Manzinello",
-    link: "mailto:ciao@matteomanzinello.com"
+    link: "mailto:ciao@matteomanzinello.com",
+    target: false
   }
 ];
 
@@ -49,6 +54,7 @@ class App extends Component {
           theme={iconLink.theme}
           text={iconLink.text}
           link={iconLink.link}
+          target={iconLink.target}
         />{" "}
       </>
     );
