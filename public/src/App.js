@@ -13,6 +13,7 @@ const iconLinks = [
     theme: "outlined",
     text: "Follow @manzinello on Instagram",
     link: "https://www.instagram.com/manzinello/",
+    classes: ["a-icon-instagram"],
     target: true
   },
   {
@@ -20,6 +21,7 @@ const iconLinks = [
     theme: "outlined",
     text: "Follow @mmanzinello on Twitter",
     link: "https://twitter.com/mmanzinello",
+    classes: ["a-icon-twitter"],
     target: true
   },
   {
@@ -27,6 +29,7 @@ const iconLinks = [
     theme: "filled",
     text: "Follow @manzinello on Facebook",
     link: "https://www.facebook.com/manzinello",
+    classes: ["a-icon-facebook"],
     target: true
   },
   {
@@ -34,6 +37,7 @@ const iconLinks = [
     theme: "filled",
     text: "@manzinello on GitHub",
     link: "https://github.com/manzinello",
+    classes: ["a-icon-github"],
     target: true
   },
   {
@@ -41,6 +45,7 @@ const iconLinks = [
     theme: "outlined",
     text: "Send an email to Matteo Manzinello",
     link: "mailto:ciao@matteomanzinello.com",
+    classes: ["a-icon-mail"],
     target: false
   }
 ];
