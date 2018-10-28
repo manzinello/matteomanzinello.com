@@ -27,12 +27,15 @@
 }
 
 .a-icon-facebook:hover {
+  color: #c4cde0;
 }
 .a-icon-twitter:hover {
+  color: #b2e6f9;
 }
 .a-icon-github:hover {
 }
 .a-icon-instagram:hover {
+  color: #eabfdc;
 }
 .a-icon-mail:hover {
 }

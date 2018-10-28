@@ -9,6 +9,7 @@ import "./App.css";
 
 const iconLinks = [
   {
+    key: "instagram",
     type: "instagram",
     theme: "outlined",
     text: "Follow @manzinello on Instagram",
@@ -17,6 +18,7 @@ const iconLinks = [
     target: true
   },
   {
+    key: "twitter",
     type: "twitter",
     theme: "outlined",
     text: "Follow @mmanzinello on Twitter",
@@ -25,6 +27,7 @@ const iconLinks = [
     target: true
   },
   {
+    key: "facebook",
     type: "facebook",
     theme: "filled",
     text: "Follow @manzinello on Facebook",
@@ -33,6 +36,7 @@ const iconLinks = [
     target: true
   },
   {
+    key: "github",
     type: "github",
     theme: "filled",
     text: "@manzinello on GitHub",
@@ -41,6 +45,7 @@ const iconLinks = [
     target: true
   },
   {
+    key: "mail",
     type: "mail",
     theme: "outlined",
     text: "Send an email to Matteo Manzinello",
@@ -60,6 +65,7 @@ class App extends Component {
           text={iconLink.text}
           link={iconLink.link}
           target={iconLink.target}
+          classes={iconLink.classes}
         />{" "}
       </>
     );
