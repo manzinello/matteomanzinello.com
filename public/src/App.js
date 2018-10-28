@@ -1,13 +1,59 @@
 import React, { Component } from "react";
-import { Helmet } from "react-helmet";
-import { Icon } from "antd";
+
+import ManzinelloIconLink from "./components/ManzinelloIconLink";
 
 import react from "./react.svg";
 
 import "antd/dist/antd.css";
 import "./App.css";
 
+const iconLinks = [
+  {
+    type: "instagram",
+    theme: "outlined",
+    text: "Follow @manzinello on Instagram",
+    link: "https://www.instagram.com/manzinello/"
+  },
+  {
+    type: "twitter",
+    theme: "outlined",
+    text: "Follow @mmanzinello on Twitter",
+    link: "https://twitter.com/mmanzinello"
+  },
+  {
+    type: "facebook",
+    theme: "filled",
+    text: "Follow @manzinello on Facebook",
+    link: "https://www.facebook.com/manzinello"
+  },
+  {
+    type: "github",
+    theme: "filled",
+    text: "@manzinello on GitHub",
+    link: "https://github.com/manzinello"
+  },
+  {
+    type: "mail",
+    theme: "outlined",
+    text: "Send an email to Matteo Manzinello",
+    link: "mailto:ciao@matteomanzinello.com"
+  }
+];
+
 class App extends Component {
+  mapIconLink = iconLink => {
+    return (
+      <>
+        <ManzinelloIconLink
+          type={iconLink.type}
+          theme={iconLink.theme}
+          text={iconLink.text}
+          link={iconLink.link}
+        />{" "}
+      </>
+    );
+  };
+
   render() {
     return (
       <>
@@ -19,26 +65,7 @@ class App extends Component {
               <code>freelance developer</code>
             </span>
           </p>
-          <p>
-            <a
-              className={"a-icon"}
-              href="https://www.instagram.com/manzinello/"
-            >
-              <Icon type="instagram" theme="outlined" />
-            </a>{" "}
-            <a className={"a-icon"} href="https://twitter.com/mmanzinello">
-              <Icon type="twitter" theme="outlined" />
-            </a>{" "}
-            <a className={"a-icon"} href="https://www.facebook.com/manzinello">
-              <Icon type="facebook" theme="filled" />
-            </a>{" "}
-            <a className={"a-icon"} href="https://github.com/manzinello">
-              <Icon type="github" theme="filled" />
-            </a>{" "}
-            <a className={"a-icon"} href="mailto:ciao@matteomanzinello.com">
-              <Icon type="mail" theme="outlined" />
-            </a>
-          </p>
+          <p>{iconLinks.map(this.mapIconLink)}</p>
           <img src={react} className="App-logo" alt="logo" />
         </div>
       </>
