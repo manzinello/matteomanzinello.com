@@ -15,10 +15,8 @@ class App extends Component {
           <p>
             matteo <strong>manzinello</strong>
             <span className={"manzinello-description"}>
-              {"{ "}
               26, a <em>computer engineer</em>, a{" "}
               <code>freelance developer</code>
-              {" }"}
             </span>
           </p>
           <p>
