@@ -9,7 +9,7 @@ class ManzinelloIconLink extends Component {
       <>
         {!this.props.target ? (
           <a
-            className={"a-icon"}
+            className={["a-icon", this.props.classes]}
             title={this.props.text}
             href={this.props.link}
           >
@@ -19,7 +19,7 @@ class ManzinelloIconLink extends Component {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            className={"a-icon"}
+            className={["a-icon", this.props.classes]}
             title={this.props.text}
             href={this.props.link}
           >

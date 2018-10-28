@@ -16,11 +16,14 @@
   color: white;
 }
 
-.a-icon,
+.a-icon {
+  color: white;
+}
+
 .a-icon:hover,
 .a-icon:focus,
 .a-icon:active {
-  color: white;
+  color: #ccc;
 }
 
 .manzinello-description {
