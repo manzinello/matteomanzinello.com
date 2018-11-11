@@ -56,20 +56,19 @@ const iconLinks = [
 ];
 
 class App extends Component {
-  /*
   componentDidMount() {
-    window.addEventListener("deviceorientation", this.handleOrientation, true);
+    const w = window,
+      d = document,
+      documentElement = d.documentElement,
+      body = d.getElementsByTagName("body")[0];
   }
 
-  handleOrientation(event) {
+  handleOrientation = event => {
     var absolute = event.absolute;
     var alpha = event.alpha;
     var beta = event.beta;
     var gamma = event.gamma;
-
-    console.log(absolute + alpha + beta + gamma);
-  }
-  */
+  };
 
   mapIconLink = (iconLink, i) => {
     return (
