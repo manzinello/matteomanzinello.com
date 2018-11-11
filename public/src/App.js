@@ -56,10 +56,26 @@ const iconLinks = [
 ];
 
 class App extends Component {
-  mapIconLink = iconLink => {
+  /*
+  componentDidMount() {
+    window.addEventListener("deviceorientation", this.handleOrientation, true);
+  }
+
+  handleOrientation(event) {
+    var absolute = event.absolute;
+    var alpha = event.alpha;
+    var beta = event.beta;
+    var gamma = event.gamma;
+
+    console.log(absolute + alpha + beta + gamma);
+  }
+  */
+
+  mapIconLink = (iconLink, i) => {
     return (
       <>
         <ManzinelloIconLink
+          key={iconLink.key}
           type={iconLink.type}
           theme={iconLink.theme}
           text={iconLink.text}
