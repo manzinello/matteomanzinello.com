@@ -4,7 +4,8 @@ import ManzinelloIconLink from "./components/ManzinelloIconLink";
 
 import react from "./react.svg";
 
-import "antd/dist/antd.css";
+import "rsuite/dist/styles/rsuite.min.css";
+
 import "./App.css";
 
 const iconLinks = [
@@ -28,7 +29,7 @@ const iconLinks = [
   },
   {
     key: "facebook",
-    type: "facebook",
+    type: "facebook-official",
     theme: "filled",
     text: "Follow @manzinello on Facebook",
     link: "https://www.facebook.com/manzinello",
@@ -46,7 +47,7 @@ const iconLinks = [
   },
   {
     key: "mail",
-    type: "mail",
+    type: "email",
     theme: "outlined",
     text: "Send an email to Matteo Manzinello",
     link: "mailto:ciao@matteomanzinello.com",
@@ -56,20 +57,6 @@ const iconLinks = [
 ];
 
 class App extends Component {
-  componentDidMount() {
-    const w = window,
-      d = document,
-      documentElement = d.documentElement,
-      body = d.getElementsByTagName("body")[0];
-  }
-
-  handleOrientation = event => {
-    var absolute = event.absolute;
-    var alpha = event.alpha;
-    var beta = event.beta;
-    var gamma = event.gamma;
-  };
-
   mapIconLink = (iconLink, i) => {
     return (
       <>
