@@ -1,3 +1,3 @@
 # 👨🏻‍💻 matteomanzinello.com
 
-Matteo Manzinello, made with React
+Matteo Manzinello personal website, made with React
