@@ -46,6 +46,15 @@
   display: block;
 }
 
+.manzinello-email {
+  font-size: 0.9em;
+  display: block;
+}
+
+.manzinello-icons {
+  margin: 12px 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

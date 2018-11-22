@@ -44,16 +44,18 @@ const iconLinks = [
     link: "https://github.com/manzinello",
     classes: ["a-icon-github"],
     target: true
-  },
+  }
+  /*
   {
     key: "mail",
-    type: "email",
+    type: "envelope",
     theme: "outlined",
     text: "Send an email to Matteo Manzinello",
     link: "mailto:ciao@matteomanzinello.com",
     classes: ["a-icon-mail"],
     target: false
   }
+  */
 ];
 
 class App extends Component {
@@ -79,12 +81,14 @@ class App extends Component {
         <div className="App">
           <p>
             matteo <strong>manzinello</strong>
-            <span className={"manzinello-description"}>
-              26, a <em>computer engineer</em>, a{" "}
-              <code>freelance developer</code>
-            </span>
           </p>
-          <p>{iconLinks.map(this.mapIconLink)}</p>
+          <div className={"manzinello-description"}>
+            26, a <em>computer engineer</em>, a <em>freelance developer</em>
+            <code className={"manzinello-email"}>~ matteo@manzinello.com</code>
+          </div>
+          <div className={"manzinello-icons"}>
+            <p>{iconLinks.map(this.mapIconLink)}</p>
+          </div>
           <img src={react} className="App-logo" alt="logo" />
         </div>
       </>
