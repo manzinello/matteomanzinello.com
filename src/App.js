@@ -61,17 +61,15 @@ const iconLinks = [
 class App extends Component {
   mapIconLink = (iconLink, i) => {
     return (
-      <>
-        <ManzinelloIconLink
-          key={iconLink.key}
-          type={iconLink.type}
-          theme={iconLink.theme}
-          text={iconLink.text}
-          link={iconLink.link}
-          target={iconLink.target}
-          classes={iconLink.classes}
-        />
-      </>
+      <ManzinelloIconLink
+        key={iconLink.key}
+        type={iconLink.type}
+        theme={iconLink.theme}
+        text={iconLink.text}
+        link={iconLink.link}
+        target={iconLink.target}
+        classes={iconLink.classes}
+      />
     );
   };
 
