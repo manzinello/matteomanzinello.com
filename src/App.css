@@ -12,12 +12,13 @@
   align-items: center;
   justify-content: center;
   padding: 16px;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 2.5vmin);
   color: white;
 }
 
 .a-icon {
   color: white;
+  margin: 0 6px;
 }
 
 .a-icon:hover,

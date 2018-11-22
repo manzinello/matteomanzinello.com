@@ -70,7 +70,7 @@ class App extends Component {
           link={iconLink.link}
           target={iconLink.target}
           classes={iconLink.classes}
-        />{" "}
+        />
       </>
     );
   };
