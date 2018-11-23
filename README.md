@@ -1,3 +1,5 @@
 # 👨🏻‍💻 matteomanzinello.com
 
-Matteo Manzinello personal website, made with React
+made with ❤️ and React
+
+powered by _Cloudflare_, hosted on _Netlify_
