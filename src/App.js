@@ -82,7 +82,9 @@ class App extends Component {
           </p>
           <div className={"manzinello-description"}>
             26, a <em>computer engineer</em>, a <em>freelance developer</em>
-            <code className={"manzinello-email"}>~ matteo@manzinello.com</code>
+            <code className={"manzinello-email"}>
+              ~ <a href="mailto:matteo@manzinello.com">matteo@manzinello.com</a>
+            </code>
           </div>
           <div className={"manzinello-icons"}>
             <p>{iconLinks.map(this.mapIconLink)}</p>
