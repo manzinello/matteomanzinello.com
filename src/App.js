@@ -4,6 +4,8 @@ import ManzinelloIconLink from "./components/ManzinelloIconLink";
 
 import react from "./react.svg";
 
+import { Icon } from "rsuite";
+
 import "rsuite/dist/styles/rsuite.min.css";
 
 import "./App.css";
@@ -83,7 +85,8 @@ class App extends Component {
           <div className={"manzinello-description"}>
             26, a <em>computer engineer</em>, a <em>freelance developer</em>
             <code className={"manzinello-email"}>
-              ~ <a href="mailto:matteo@manzinello.com">matteo@manzinello.com</a>
+              <Icon icon={"send"} />{" "}
+              <a href="mailto:matteo@manzinello.com">matteo@manzinello.com</a>
             </code>
           </div>
           <div className={"manzinello-icons"}>

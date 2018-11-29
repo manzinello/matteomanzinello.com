@@ -44,6 +44,7 @@
 }
 
 .manzinello-email {
+  margin-top: 12px;
   font-size: 0.8em;
   display: block;
 }
@@ -57,7 +58,7 @@
 }
 
 .manzinello-email a:hover {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.6) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75) !important;
 }
 
 .manzinello-icons {
