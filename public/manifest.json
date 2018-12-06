@@ -2,7 +2,5 @@
   "short_name": "Matteo Manzinello",
   "name": "Matteo Manzinello, freelance developer",
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "display": "standalone"
 }
