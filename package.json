@@ -9,7 +9,7 @@
     "react-helmet": "^5.2.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
-    "rsuite": "^3.4.4"
+    "rsuite": "^3.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
