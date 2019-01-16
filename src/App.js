@@ -45,30 +45,21 @@ const iconLinks = [
     classes: ["a-icon-github"],
     target: true
   }
-  /*
-  {
-    key: "mail",
-    type: "envelope",
-    theme: "outlined",
-    text: "Send an email to Matteo Manzinello",
-    link: "mailto:ciao@matteomanzinello.com",
-    classes: ["a-icon-mail"],
-    target: false
-  }
-  */
 ];
 
 class App extends Component {
   mapIconLink = (iconLink, i) => {
+    let { key, type, theme, text, link, target, classes } = iconLink;
+
     return (
       <ManzinelloIconLink
-        key={iconLink.key}
-        type={iconLink.type}
-        theme={iconLink.theme}
-        text={iconLink.text}
-        link={iconLink.link}
-        target={iconLink.target}
-        classes={iconLink.classes}
+        key={key}
+        type={type}
+        theme={theme}
+        text={text}
+        link={link}
+        target={target}
+        classes={classes}
       />
     );
   };

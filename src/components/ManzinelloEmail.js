@@ -5,7 +5,7 @@ class ManzinelloEmail extends Component {
     return (
       <>
         <code className={"manzinello-email"}>
-          <a href="mailto:matteo@manzinello.com">matteo@manzinello.com</a>
+          <a href="mailto:matteo@manzinello.com">{"matteo@manzinello.com"}</a>
         </code>
       </>
     );

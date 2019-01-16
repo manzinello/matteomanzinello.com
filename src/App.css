@@ -43,6 +43,11 @@
   display: block;
 }
 
+.manzinello-tags {
+  font-size: 0.4em;
+  margin-top: 20px;
+}
+
 .manzinello-email {
   margin-top: 12px;
   font-size: 0.8em;
