@@ -10,47 +10,10 @@ import react from "./react.svg";
 import "rsuite/dist/styles/rsuite.min.css";
 import "./App.css";
 
-const iconLinks = [
-  {
-    key: "instagram",
-    type: "instagram",
-    theme: "outlined",
-    text: "Follow @manzinello on Instagram",
-    link: "https://www.instagram.com/manzinello/",
-    classes: ["a-icon-instagram"],
-    target: true
-  },
-  {
-    key: "twitter",
-    type: "twitter",
-    theme: "outlined",
-    text: "Follow @mmanzinello on Twitter",
-    link: "https://twitter.com/mmanzinello",
-    classes: ["a-icon-twitter"],
-    target: true
-  },
-  {
-    key: "facebook",
-    type: "facebook-official",
-    theme: "filled",
-    text: "Follow @manzinello on Facebook",
-    link: "https://www.facebook.com/manzinello",
-    classes: ["a-icon-facebook"],
-    target: true
-  },
-  {
-    key: "github",
-    type: "github",
-    theme: "filled",
-    text: "@manzinello on GitHub",
-    link: "https://github.com/manzinello",
-    classes: ["a-icon-github"],
-    target: true
-  }
-];
+import socialLinks from "./data/social-links.json";
 
 class App extends Component {
-  mapIconLink = (iconLink, i) => {
+  mapSocialLink = (iconLink, i) => {
     let { key, type, theme, text, link, target, classes } = iconLink;
 
     return (
@@ -79,7 +42,7 @@ class App extends Component {
               <ManzinelloEmail />
             </div>
             <div className={"manzinello-icons"}>
-              <p>{iconLinks.map(this.mapIconLink)}</p>
+              <p>{socialLinks.map(this.mapSocialLink)}</p>
             </div>
             <img src={react} className="App-logo" alt="logo" />
           </div>
