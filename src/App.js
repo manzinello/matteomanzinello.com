@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 import ManzinelloIconLink from "./components/ManzinelloIconLink";
 import ManzinelloEmail from "./components/ManzinelloEmail";
 
@@ -67,19 +69,21 @@ class App extends Component {
   render() {
     return (
       <>
-        <div className="manzinello-app">
-          <p>
-            matteo <strong>manzinello</strong>
-          </p>
-          <div className={"manzinello-description"}>
-            26, a <em>computer engineer</em>, a <em>freelance developer</em>
-            <ManzinelloEmail />
+        <Router>
+          <div className="manzinello-app">
+            <p>
+              matteo <strong>manzinello</strong>
+            </p>
+            <div className={"manzinello-description"}>
+              26, a <em>computer engineer</em>, a <em>freelance developer</em>
+              <ManzinelloEmail />
+            </div>
+            <div className={"manzinello-icons"}>
+              <p>{iconLinks.map(this.mapIconLink)}</p>
+            </div>
+            <img src={react} className="App-logo" alt="logo" />
           </div>
-          <div className={"manzinello-icons"}>
-            <p>{iconLinks.map(this.mapIconLink)}</p>
-          </div>
-          <img src={react} className="App-logo" alt="logo" />
-        </div>
+        </Router>
       </>
     );
   }
