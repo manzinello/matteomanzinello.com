@@ -7,7 +7,6 @@ import ManzinelloEmail from "./components/ManzinelloEmail";
 
 import react from "./react.svg";
 
-import "rsuite/dist/styles/rsuite.min.css";
 import "./App.css";
 
 import socialLinks from "./data/social-links.json";

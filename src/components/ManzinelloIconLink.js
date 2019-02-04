@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import { Icon } from "rsuite";
+import { Icon } from "antd";
 
 class ManzinelloIconLink extends Component {
   render = () => {
@@ -13,7 +13,7 @@ class ManzinelloIconLink extends Component {
             title={this.props.text}
             href={this.props.link}
           >
-            <Icon icon={this.props.type} size={"2x"} theme={this.props.theme} />
+            <Icon type={this.props.type} size={"2x"} theme={this.props.theme} />
           </a>
         ) : (
           <a
@@ -23,7 +23,7 @@ class ManzinelloIconLink extends Component {
             title={this.props.text}
             href={this.props.link}
           >
-            <Icon icon={this.props.type} size={"2x"} theme={this.props.theme} />
+            <Icon type={this.props.type} size={"2x"} theme={this.props.theme} />
           </a>
         )}
       </>

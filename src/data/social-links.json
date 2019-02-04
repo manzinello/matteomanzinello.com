@@ -19,7 +19,7 @@
   },
   {
     "key": "facebook",
-    "type": "facebook-official",
+    "type": "facebook",
     "theme": "filled",
     "text": "Follow @manzinello on Facebook",
     "link": "https://www.facebook.com/manzinello",
