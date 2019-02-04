@@ -33,7 +33,7 @@ class App extends Component {
       <>
         <Router>
           <div className="manzinello-app">
-            <p>
+            <p className="manzinello-matteo">
               matteo <strong>manzinello</strong>
             </p>
             <div className={"manzinello-description"}>

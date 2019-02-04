@@ -18,6 +18,10 @@
   color: white;
 }
 
+p.manzinello-matteo {
+  margin-bottom: 12px;
+}
+
 .a-icon {
   color: white;
   margin: 0 6px;
@@ -69,7 +73,7 @@
 }
 
 .manzinello-icons {
-  margin: 12px 0;
+  margin: 10px 0;
 }
 
 @keyframes App-logo-spin {
