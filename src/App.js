@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 import ManzinelloIconLink from "./components/ManzinelloIconLink";
 import ManzinelloEmail from "./components/ManzinelloEmail";
