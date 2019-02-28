@@ -6,10 +6,9 @@ import ManzinelloIconLink from "./components/ManzinelloIconLink";
 import ManzinelloEmail from "./components/ManzinelloEmail";
 
 import react from "./react.svg";
+import socialLinks from "./data/social-links.json";
 
 import "./App.css";
-
-import socialLinks from "./data/social-links.json";
 
 class App extends Component {
   mapSocialLink = (iconLink, i) => {
@@ -36,10 +35,10 @@ class App extends Component {
             <p className="manzinello-matteo">
               matteo <strong>manzinello</strong>
             </p>
-            <div className={"manzinello-description"}>
+            <p className={"manzinello-description"}>
               26, a <em>computer engineer</em>, a <em>freelance developer</em>
               <ManzinelloEmail />
-            </div>
+            </p>
             <div className={"manzinello-icons"}>
               <p>{socialLinks.map(this.mapSocialLink)}</p>
             </div>
