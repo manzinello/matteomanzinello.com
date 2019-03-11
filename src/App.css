@@ -64,13 +64,14 @@ p.manzinello-matteo {
 .manzinello-email a {
   color: white;
   text-decoration: none;
-  border-bottom: transparent;
   transition: border 0.3s;
   -webkit-transition: border 0.3s;
+  text-decoration: underline;
+  opacity: 0.9;
 }
 
 .manzinello-email a:hover {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.75) !important;
+  opacity: 1;
 }
 
 .manzinello-icons {
