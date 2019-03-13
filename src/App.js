@@ -2,11 +2,10 @@ import React, { Component } from "react";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
-import { Button, Tag } from "antd";
+import { Button } from "antd";
 
 import ManzinelloIconLink from "./components/ManzinelloIconLink";
 
-import react from "./react.svg";
 import socialLinks from "./data/social-links.json";
 
 import "./App.css";
