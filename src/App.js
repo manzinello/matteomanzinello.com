@@ -2,8 +2,9 @@ import React, { Component } from "react";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
+import { Button, Tag } from "antd";
+
 import ManzinelloIconLink from "./components/ManzinelloIconLink";
-import ManzinelloEmail from "./components/ManzinelloEmail";
 
 import react from "./react.svg";
 import socialLinks from "./data/social-links.json";
@@ -37,12 +38,13 @@ class App extends Component {
             </p>
             <p className={"manzinello-description"}>
               26, a <em>computer engineer</em>, a <em>freelance developer</em>
-              <ManzinelloEmail />
             </p>
+            <Button href="mailto:matteo@manzinello.com" type="dashed" ghost>
+              matteo@manzinello.com
+            </Button>
             <div className={"manzinello-icons"}>
               <p>{socialLinks.map(this.mapSocialLink)}</p>
             </div>
-            <img src={react} className="App-logo" alt="logo" />
           </div>
         </Router>
       </>
