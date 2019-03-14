@@ -38,7 +38,12 @@ class App extends Component {
             <p className={"manzinello-description"}>
               26, a <em>computer engineer</em>, a <em>freelance developer</em>
             </p>
-            <Button href="mailto:matteo@manzinello.com" type="dashed" ghost>
+            <Button
+              size={"small"}
+              href="mailto:matteo@manzinello.com"
+              type="dashed"
+              ghost
+            >
               matteo@manzinello.com
             </Button>
             <div className={"manzinello-icons"}>
