@@ -31,7 +31,7 @@
     "type": "github",
     "theme": "filled",
     "text": "@manzinello on GitHub",
-    "link": "https://manzinello.github.io",
+    "link": "https://manzinello.dev",
     "classes": ["a-icon-github"],
     "target": true
   }
