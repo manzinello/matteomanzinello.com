@@ -39,16 +39,23 @@ class App extends Component {
               26, a <em>computer engineer</em>, a <em>freelance developer</em>
             </p>
             <Button
-              size={"small"}
-              href="mailto:matteo@manzinello.com"
+              href="https://manzinello.dev"
               type="dashed"
+              target="_blank"
               ghost
             >
-              matteo@manzinello.com
+              manzinello.dev
             </Button>
             <div className={"manzinello-icons"}>
               <p>{socialLinks.map(this.mapSocialLink)}</p>
             </div>
+            <Button
+              type="primary"
+              size={"small"}
+              href="https://manzinello.typeform.com/to/NQboqI"
+            >
+              contact me
+            </Button>
           </div>
         </Router>
       </>
