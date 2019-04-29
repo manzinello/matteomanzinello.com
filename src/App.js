@@ -38,23 +38,25 @@ class App extends Component {
             <p className={"manzinello-description"}>
               26, a <em>computer engineer</em>, a <em>freelance developer</em>
             </p>
-            <Button
-              href="https://manzinello.dev"
-              type="dashed"
-              target="_blank"
-              ghost
-            >
-              manzinello.dev
-            </Button>
             <div className={"manzinello-icons"}>
               <p>{socialLinks.map(this.mapSocialLink)}</p>
             </div>
             <Button
               type="primary"
-              size={"small"}
+              icon="mail"
               href="https://manzinello.typeform.com/to/NQboqI"
             >
               contact me
+            </Button>
+            <br />
+            <Button
+              href="https://manzinello.dev"
+              type="dashed"
+              target="_blank"
+              size="small"
+              ghost
+            >
+              manzinello.dev
             </Button>
           </div>
         </Router>
