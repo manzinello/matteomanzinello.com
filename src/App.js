@@ -42,11 +42,12 @@ class App extends Component {
               <p>{socialLinks.map(this.mapSocialLink)}</p>
             </div>
             <Button
-              type="primary"
-              icon="mail"
-              href="https://manzinello.typeform.com/to/NQboqI"
+              href="mailto:matteo@manzinello.dev"
+              type="link"
+              target="_blank"
+              size="small"
             >
-              contact me
+              matteo@manzinello.dev
             </Button>
             <br />
             <Button
