@@ -42,8 +42,9 @@ class App extends Component {
               <p>{socialLinks.map(this.mapSocialLink)}</p>
             </div>
             <Button
+              type="primary"
+              icon="mail"
               href="mailto:matteo@manzinello.dev"
-              type="link"
               target="_blank"
               size="small"
             >
