@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "antd": "^3.18.1",
-    "netlify-lambda": "^1.4.7",
+    "antd": "^3.18.2",
+    "netlify-lambda": "^1.4.12",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
