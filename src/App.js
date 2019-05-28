@@ -8,7 +8,7 @@ import ManzinelloIconLink from "./components/ManzinelloIconLink";
 
 import socialLinks from "./data/social-links.json";
 
-import "../node_modules/mailgo/dist/mailgo.min.js";
+import "mailgo";
 
 import "./App.css";
 
