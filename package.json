@@ -7,7 +7,7 @@
     "antd": "^3.19.1",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
-    "mailgo": "^0.6.2",
+    "mailgo": "^0.6.4",
     "netlify-lambda": "^1.4.13",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
