@@ -48,6 +48,7 @@ class App extends Component {
               icon="mail"
               href="mailto:matteo@manzinello.dev"
               target="_blank"
+              shape="round"
               size="small"
             >
               matteo@manzinello.dev
@@ -57,6 +58,7 @@ class App extends Component {
               href="https://manzinello.dev"
               type="dashed"
               target="_blank"
+              shape="round"
               size="small"
               ghost
             >
