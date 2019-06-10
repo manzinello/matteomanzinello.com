@@ -4,15 +4,15 @@
   "private": true,
   "dependencies": {
     "@ant-design/dark-theme": "^0.2.1",
-    "antd": "^3.19.2",
+    "antd": "^3.19.3",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
-    "mailgo": "^0.6.5",
+    "mailgo": "^0.6.7",
     "netlify-lambda": "^1.4.13",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
-    "react-router-dom": "^5.0.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
   "scripts": {
