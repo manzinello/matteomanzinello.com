@@ -10,7 +10,7 @@ import socialLinks from "./data/social-links.json";
 
 import "mailgo";
 
-import "./App.css";
+import "./App.scss";
 
 class App extends Component {
   mapSocialLink = (iconLink, i) => {
