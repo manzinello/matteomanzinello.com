@@ -47,6 +47,7 @@ p.manzinello-matteo {
 .manzinello-description {
   font-size: 0.7em;
   margin-top: 5px;
+  margin-bottom: 25px;
   display: block;
 }
 
@@ -75,7 +76,7 @@ p.manzinello-matteo {
 }
 
 .manzinello-icons {
-  margin: 10px 0;
+  margin-top: 25px;
 }
 
 @keyframes App-logo-spin {

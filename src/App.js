@@ -40,9 +40,6 @@ class App extends Component {
             <p className={"manzinello-description"}>
               26, a <em>computer engineer</em>, a <em>freelance developer</em>
             </p>
-            <div className={"manzinello-icons"}>
-              <p>{socialLinks.map(this.mapSocialLink)}</p>
-            </div>
             <Button
               type="primary"
               icon="message"
@@ -52,13 +49,16 @@ class App extends Component {
             >
               matteo@manzinello.dev
             </Button>
-            <br />
+            <div className={"manzinello-icons"}>
+              <p>{socialLinks.map(this.mapSocialLink)}</p>
+            </div>
             <Button
               href="https://manzinello.dev"
-              type="dashed"
+              type="link"
               target="_blank"
               shape="round"
               size="small"
+              icon="project"
               ghost
             >
               manzinello.dev
