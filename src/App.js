@@ -45,11 +45,10 @@ class App extends Component {
             </div>
             <Button
               type="primary"
-              icon="mail"
+              icon="message"
               href="mailto:matteo@manzinello.dev"
               target="_blank"
               shape="round"
-              size="small"
             >
               matteo@manzinello.dev
             </Button>

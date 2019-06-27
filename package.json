@@ -5,6 +5,7 @@
   "dependencies": {
     "@ant-design/dark-theme": "^0.2.2",
     "antd": "^3.19.8",
+    "eva-icons": "^1.1.1",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "mailgo": "^0.6.8",
