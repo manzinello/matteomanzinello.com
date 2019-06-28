@@ -48,7 +48,7 @@ class App extends Component {
               target="_blank"
               shape="round"
             >
-              matteo@manzinello.dev
+              {"matteo@manzinello.dev"}
             </Button>
             <div className={"manzinello-icons"}>
               <p>{socialLinks.map(this.mapSocialLink)}</p>
@@ -62,7 +62,7 @@ class App extends Component {
               icon="project"
               ghost
             >
-              manzinello.dev
+              {"manzinello.dev"}
             </Button>
           </div>
         </Router>
