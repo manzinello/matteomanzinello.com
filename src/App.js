@@ -55,7 +55,6 @@ class App extends Component {
             </div>
             <Button
               href="https://manzinello.dev"
-              type="link"
               target="_blank"
               shape="round"
               size="small"
