@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import { Button } from "antd";
+import { Avatar, Button } from "antd";
 
 import ManzinelloIconLink from "./components/ManzinelloIconLink";
 import ManzinelloRef from "./components/ManzinelloRef";
@@ -35,6 +35,7 @@ class App extends Component {
       <>
         <Router>
           <div className="manzinello-app">
+            <Avatar size={64} icon="user" className="manzinello-avatar" />
             <p className="manzinello-matteo">
               matteo <strong>manzinello</strong>
             </p>
