@@ -71,7 +71,16 @@ p.manzinello-matteo {
 }
 
 .manzinello-icons {
-  margin-top: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.manzinello-place-badge {
+  margin-top: 15px;
+}
+
+.manzinello-place-badge .ant-badge-status-text {
+  color: white;
 }
 
 @keyframes App-logo-spin {

@@ -2,10 +2,11 @@ import React, { Component } from "react";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import { Avatar, Button } from "antd";
+import { Avatar, Badge, Button } from "antd";
 
 import ManzinelloIconLink from "./components/ManzinelloIconLink";
-import ManzinelloRef from "./components/ManzinelloRef";
+
+import matteo from "./assets/images/matteomanzinello.jpg";
 
 import socialLinks from "./data/social-links.json";
 
@@ -35,7 +36,7 @@ class App extends Component {
       <>
         <Router>
           <div className="manzinello-app">
-            <Avatar size={64} icon="user" className="manzinello-avatar" />
+            <Avatar size={80} src={matteo} className="manzinello-avatar" />
             <p className="manzinello-matteo">
               matteo <strong>manzinello</strong>
             </p>
@@ -51,8 +52,9 @@ class App extends Component {
             >
               {"matteo@manzinello.dev"}
             </Button>
+
             <div className={"manzinello-icons"}>
-              <p>{socialLinks.map(this.mapSocialLink)}</p>
+              {socialLinks.map(this.mapSocialLink)}
             </div>
             <Button
               href="https://writeme.now.sh/matteo"
@@ -75,6 +77,11 @@ class App extends Component {
             >
               {"manzinello.dev"}
             </Button>
+            <Badge
+              status="processing"
+              text="Monza e Brianza, Italia"
+              className="manzinello-place-badge"
+            />
           </div>
         </Router>
       </>
