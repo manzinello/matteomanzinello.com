@@ -57,25 +57,15 @@ class App extends Component {
               {socialLinks.map(this.mapSocialLink)}
             </div>
             <Button
-              href="https://writeme.now.sh/matteo"
-              target="_blank"
-              shape="round"
-              size="small"
-              icon="mail"
-              className="writemenow-button"
-              ghost
-            >
-              {"writeme.now.sh/matteo"}
-            </Button>
-            <Button
               href="https://manzinello.dev"
+              type="link"
               target="_blank"
               shape="round"
               size="small"
-              icon="project"
+              icon="code"
               ghost
             >
-              {"manzinello.dev"}
+              <code>{" manzinello.dev"}</code>
             </Button>
             <Badge
               status="processing"
