@@ -6,8 +6,6 @@
     "@ant-design/dark-theme": "^0.2.2",
     "antd": "^3.21.4",
     "eva-icons": "^1.1.1",
-    "less": "^3.10.0",
-    "less-loader": "^5.0.0",
     "mailgo": "^0.6.9",
     "netlify-lambda": "^1.6.2",
     "node-sass": "^4.12.0",
