@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 import { Avatar, Badge, Button } from "antd";
 
@@ -41,7 +41,8 @@ class App extends Component {
               matteo <strong>manzinello</strong>
             </p>
             <p className={"manzinello-description"}>
-              26, a <em>computer engineer</em>, a <em>freelance developer</em>
+              26, a <em>creative</em>, a <em>computer engineer</em>, a{" "}
+              <em>freelance developer</em>
             </p>
             <Button
               type="primary"
