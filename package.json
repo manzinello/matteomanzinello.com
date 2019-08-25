@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@ant-design/dark-theme": "^0.2.2",
+    "@sentry/browser": "^5.6.2",
     "antd": "^3.21.4",
     "eva-icons": "^1.1.1",
     "mailgo": "^0.6.9",
