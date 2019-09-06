@@ -73,6 +73,7 @@ class App extends Component {
               text="Monza e Brianza, Italia"
               className="manzinello-place-badge"
             />
+            <p className={"manzinello-piva"}>P.IVA 10310610968</p>
           </div>
         </Router>
       </>
