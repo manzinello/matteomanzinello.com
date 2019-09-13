@@ -36,7 +36,7 @@ class App extends Component {
       <>
         <Router>
           <div className="manzinello-app">
-            <Avatar size={80} src={matteo} className="manzinello-avatar" />
+            <Avatar size={150} src={matteo} className="manzinello-avatar" />
             <p className="manzinello-matteo">
               matteo <strong>manzinello</strong>
             </p>
