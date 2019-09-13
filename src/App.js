@@ -4,6 +4,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import { Avatar, Badge, Button, Icon } from "antd";
 
+import ClipboardJS from "clipboard";
+
 import ManzinelloIconLink from "./components/ManzinelloIconLink";
 
 import matteo from "./assets/images/matteomanzinello.jpg";
@@ -29,6 +31,10 @@ class App extends Component {
         classes={classes}
       />
     );
+  };
+
+  copyPartitaIva = () => {
+    new ClipboardJS("#partita-iva");
   };
 
   render() {
@@ -75,16 +81,18 @@ class App extends Component {
             />
             <p className={"manzinello-piva"}>
               P.IVA <span id="partita-iva">10310610968</span>
-              <a
-                onClick={this.copyPartitaIva}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={"a-icon"}
-                title={"Copia Partita IVA"}
-                href={"#copy-partita-iva"}
-              >
-                <Icon type={"copy"} size={"2x"} />
-              </a>
+              {false && (
+                <a
+                  onClick={this.copyPartitaIva}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={"a-icon"}
+                  title={"Copia Partita IVA"}
+                  href={"#copy-partita-iva"}
+                >
+                  <Icon type={"copy"} size={"2x"} />
+                </a>
+              )}
             </p>
           </div>
         </Router>
