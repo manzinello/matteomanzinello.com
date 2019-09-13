@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
-import { Avatar, Badge, Button } from "antd";
+import { Avatar, Badge, Button, Icon } from "antd";
 
 import ManzinelloIconLink from "./components/ManzinelloIconLink";
 
@@ -73,7 +73,19 @@ class App extends Component {
               text="Monza e Brianza, Italia"
               className="manzinello-place-badge"
             />
-            <p className={"manzinello-piva"}>P.IVA 10310610968</p>
+            <p className={"manzinello-piva"}>
+              P.IVA <span id="partita-iva">10310610968</span>
+              <a
+                onClick={this.copyPartitaIva}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={"a-icon"}
+                title={"Copia Partita IVA"}
+                href={"#copy-partita-iva"}
+              >
+                <Icon type={"copy"} size={"2x"} />
+              </a>
+            </p>
           </div>
         </Router>
       </>
