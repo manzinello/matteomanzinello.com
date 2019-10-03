@@ -5,6 +5,12 @@
   force = true
 
 [[redirects]]
+  from = "https://matteo.manzinello.com/*"
+  to = "https://matteomanzinello.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "https://matteomanzinello.com/tiamo"
   to = "https://ilariaberetta.com"
   status = 301
