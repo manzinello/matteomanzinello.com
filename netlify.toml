@@ -1,9 +1,4 @@
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[[redirects]]
   from = "https://matteomanzinello.netlify.com/*"
   to = "https://matteomanzinello.com/:splat"
   status = 301
@@ -14,3 +9,8 @@
   to = "https://ilariaberetta.com"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
