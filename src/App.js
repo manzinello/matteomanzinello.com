@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
-import { Avatar, Badge, Button, Icon } from "antd";
+import { Avatar, Badge, Button, Icon, Tag } from "antd";
 
 import ClipboardJS from "clipboard";
 
@@ -79,8 +79,8 @@ class App extends Component {
               text="Monza e Brianza, Italia"
               className="manzinello-place-badge"
             />
-            <p className={"manzinello-piva"}>
-              P.IVA <span id="partita-iva">10310610968</span>
+            <div className={"manzinello-piva"}>
+              <Tag color="#424855">P.IVA 10310610968</Tag>
               {false && (
                 <a
                   onClick={this.copyPartitaIva}
@@ -93,7 +93,7 @@ class App extends Component {
                   <Icon type={"copy"} size={"2x"} />
                 </a>
               )}
-            </p>
+            </div>
           </div>
         </Router>
       </>
