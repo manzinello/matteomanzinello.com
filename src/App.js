@@ -47,7 +47,7 @@ class App extends Component {
               matteo <strong>manzinello</strong>
             </p>
             <p className={"manzinello-description"}>
-              26, a <em>creative</em>, a <em>computer engineer</em>, a{" "}
+              27, a <em>creative</em>, a <em>computer engineer</em>, a{" "}
               <em>freelance developer</em>
             </p>
             <Button
