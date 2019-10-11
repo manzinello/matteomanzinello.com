@@ -12,7 +12,11 @@ import matteo from "./assets/images/matteomanzinello.jpg";
 
 import socialLinks from "./data/social-links.json";
 
+// my project
 import "mailgo";
+
+// also this one
+import "@fab-ulous/github";
 
 import "./App.scss";
 
@@ -96,6 +100,13 @@ class App extends Component {
             </div>
           </div>
         </Router>
+        <a
+          id="github-fabulous"
+          className="teal"
+          href="https://github.com/manzinello/fab-ulous"
+        >
+          fab-ulous
+        </a>
       </>
     );
   }
