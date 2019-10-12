@@ -37,11 +37,30 @@ class App extends Component {
     );
   };
 
+  randomColor = () => {
+    let colors = [
+      "red",
+      "orange",
+      "green",
+      "teal",
+      "blue",
+      "indigo",
+      "purple",
+      "pink",
+      "gray",
+      ""
+    ];
+    let color = colors[Math.floor(Math.random() * colors.length)];
+    return color;
+  };
+
   copyPartitaIva = () => {
     new ClipboardJS("#partita-iva");
   };
 
   render() {
+    let aRandomColor = this.randomColor();
+
     return (
       <>
         <Router>
@@ -102,8 +121,10 @@ class App extends Component {
         </Router>
         <a
           id="github-fabulous"
-          className="teal"
+          className={aRandomColor}
           href="https://github.com/manzinello/fab-ulous"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           fab-ulous
         </a>
