@@ -21,6 +21,29 @@ import "@fab-ulous/github";
 import "./App.scss";
 
 class App extends Component {
+  intervalID = 0;
+
+  state = {
+    color: null
+  };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      color: this.randomColor(false)
+    };
+  }
+
+  componentDidMount = () => {
+    this.intervalID = setInterval(() => {
+      this.randomColor();
+    }, 2222);
+  };
+
+  componentWillUnmount() {
+    clearInterval(this.intervalID);
+  }
+
   mapSocialLink = (iconLink, i) => {
     let { key, type, theme, text, link, target, classes } = iconLink;
 
@@ -37,7 +60,7 @@ class App extends Component {
     );
   };
 
-  randomColor = () => {
+  randomColor = (updateState = true) => {
     let colors = [
       "red",
       "orange",
@@ -51,6 +74,9 @@ class App extends Component {
       ""
     ];
     let color = colors[Math.floor(Math.random() * colors.length)];
+    if (updateState) {
+      this.setState({ color });
+    }
     return color;
   };
 
@@ -59,8 +85,6 @@ class App extends Component {
   };
 
   render() {
-    let aRandomColor = this.randomColor();
-
     return (
       <>
         <Router>
@@ -121,7 +145,7 @@ class App extends Component {
         </Router>
         <a
           id="github-fabulous"
-          className={aRandomColor}
+          className={this.state.color}
           href="https://github.com/manzinello/fab-ulous"
           target="_blank"
           rel="noopener noreferrer"
