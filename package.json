@@ -9,7 +9,7 @@
     "antd": "^3.24.3",
     "clipboard": "^2.0.4",
     "eva-icons": "^1.1.1",
-    "mailgo": "^0.8.0",
+    "mailgo": "^0.8.1",
     "netlify-lambda": "^1.6.3",
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
