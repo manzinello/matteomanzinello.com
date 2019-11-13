@@ -5,7 +5,7 @@
   "dependencies": {
     "@ant-design/dark-theme": "^1.0.3",
     "@fab-ulous/github": "^0.1.8",
-    "@sentry/browser": "^5.7.1",
+    "@sentry/browser": "^5.8.0",
     "antd": "^3.25.1",
     "clipboard": "^2.0.4",
     "eva-icons": "^1.1.2",
