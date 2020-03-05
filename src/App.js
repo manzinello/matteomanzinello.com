@@ -4,6 +4,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import { Avatar, Badge, Button, Tag } from "antd";
 
+import { SearchOutlined } from '@ant-design/icons';
+
 import { Icon } from "@ant-design/compatible";
 
 import ClipboardJS from "clipboard";
@@ -101,7 +103,7 @@ class App extends Component {
             </p>
             <Button
               type="primary"
-              icon="message"
+              icon={<Message}
               href="mailto:matteo@manzinello.dev"
               target="_blank"
               shape="round"

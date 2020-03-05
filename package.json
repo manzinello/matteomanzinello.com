@@ -5,6 +5,7 @@
   "dependencies": {
     "@ant-design/compatible": "^1.0.1",
     "@ant-design/dark-theme": "^2.0.1",
+    "@ant-design/icons": "^4.0.2",
     "@fab-ulous/github": "^0.1.8",
     "@sentry/browser": "^5.13.2",
     "antd": "^4.0.1",
