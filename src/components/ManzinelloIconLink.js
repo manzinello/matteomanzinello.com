@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import { Icon } from "antd";
+import { Icon } from "@ant-design/compatible";
 
 class ManzinelloIconLink extends Component {
   render = () => {

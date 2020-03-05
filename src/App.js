@@ -2,7 +2,9 @@ import React, { Component } from "react";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
-import { Avatar, Badge, Button, Icon, Tag } from "antd";
+import { Avatar, Badge, Button, Tag } from "antd";
+
+import { Icon } from "@ant-design/compatible";
 
 import ClipboardJS from "clipboard";
 

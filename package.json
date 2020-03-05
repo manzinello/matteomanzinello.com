@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/compatible": "^1.0.1",
     "@ant-design/dark-theme": "^2.0.1",
     "@fab-ulous/github": "^0.1.8",
     "@sentry/browser": "^5.13.2",
