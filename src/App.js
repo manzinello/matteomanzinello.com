@@ -4,9 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import { Avatar, Badge, Button, Tag } from "antd";
 
-import { SearchOutlined } from '@ant-design/icons';
-
-import { Icon } from "@ant-design/compatible";
+import { MessageOutlined, CopyOutlined, CodeOutlined } from "@ant-design/icons";
 
 import ClipboardJS from "clipboard";
 
@@ -103,7 +101,7 @@ class App extends Component {
             </p>
             <Button
               type="primary"
-              icon={<Message}
+              icon={<MessageOutlined />}
               href="mailto:matteo@manzinello.dev"
               target="_blank"
               shape="round"
@@ -120,7 +118,7 @@ class App extends Component {
               target="_blank"
               shape="round"
               size="small"
-              icon="code"
+              icon={<CodeOutlined />}
               ghost
             >
               <code>{" manzinello.dev"}</code>
@@ -141,7 +139,7 @@ class App extends Component {
                   title={"Copia Partita IVA"}
                   href={"#copy-partita-iva"}
                 >
-                  <Icon type={"copy"} size={"2x"} />
+                  <CopyOutlined size={"2x"} />
                 </a>
               )}
             </div>
