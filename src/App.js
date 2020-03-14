@@ -118,6 +118,7 @@ class App extends Component {
               target="_blank"
               shape="round"
               size="small"
+              className="manzinello-dev"
               icon={<CodeOutlined />}
               ghost
             >
