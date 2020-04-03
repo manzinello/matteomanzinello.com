@@ -1,46 +1,44 @@
-import React, { Component } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 
 import { Icon } from "@ant-design/compatible";
 
-class ManzinelloIconLink extends Component {
-  render = () => {
-    return (
-      <>
-        {!this.props.target ? (
-          <a
-            className={["a-icon", this.props.classes].join(" ")}
-            title={this.props.text}
-            href={this.props.link}
-          >
-            <Icon type={this.props.type} size={"2x"} theme={this.props.theme} />
-          </a>
-        ) : (
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            className={["a-icon", this.props.classes].join(" ")}
-            title={this.props.text}
-            href={this.props.link}
-          >
-            <Icon type={this.props.type} size={"2x"} theme={this.props.theme} />
-          </a>
-        )}
-      </>
-    );
-  };
-}
+const ManzinelloIconLink = (props) => {
+  return (
+    <>
+      {!props.target ? (
+        <a
+          className={["a-icon", props.classes].join(" ")}
+          title={props.text}
+          href={props.link}
+        >
+          <Icon type={props.type} size={"2x"} theme={props.theme} />
+        </a>
+      ) : (
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          className={["a-icon", props.classes].join(" ")}
+          title={props.text}
+          href={props.link}
+        >
+          <Icon type={props.type} size={"2x"} theme={props.theme} />
+        </a>
+      )}
+    </>
+  );
+};
 
 ManzinelloIconLink.propTypes = {
   type: PropTypes.string,
   theme: PropTypes.string,
   text: PropTypes.string,
   link: PropTypes.string,
-  target: PropTypes.bool
+  target: PropTypes.bool,
 };
 
 ManzinelloIconLink.defaultProps = {
-  target: true
+  target: true,
 };
 
 export default ManzinelloIconLink;
