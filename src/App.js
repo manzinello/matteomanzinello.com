@@ -15,7 +15,7 @@ import socialLinks from "./data/social-links.json";
 // my project
 import "mailgo";
 
-// also this one
+// also this one, but it is not good as mailgo
 import "@fab-ulous/github";
 
 import "./App.scss";
