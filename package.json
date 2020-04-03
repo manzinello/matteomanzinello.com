@@ -39,5 +39,8 @@
   ],
   "devDependencies": {
     "gulp": "^4.0.2"
+  },
+  "resolutions": {
+    "@babel/preset-env": "^7.8.7"
   }
 }
