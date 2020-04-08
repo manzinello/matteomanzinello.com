@@ -1,5 +1,10 @@
 @import "~antd/dist/antd.css";
 
+$facebook-color: #3b5998;
+$github-color: #24292e;
+$twitter-color: #1da1f2;
+$instagram-color: #e1306c;
+
 .manzinello-app {
   text-align: center;
   background-color: #282c34;
@@ -91,3 +96,20 @@ p.manzinello-matteo {
 #github-fabulous {
   transition: all 0.5s !important;
 }
+
+@mixin icons($n, $color) {
+  a.#{$n} {
+    color: $color;
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: $color;
+      color: $color;
+    }
+  }
+}
+
+@include icons("instagram", $instagram-color);
+@include icons("twitter", $twitter-color);
+@include icons("facebook", $facebook-color);
+@include icons("github", $github-color);

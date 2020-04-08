@@ -4,14 +4,9 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import { Avatar, Badge, Button, Tag } from "antd";
 
-import {
-  MessageOutlined,
-  CodeOutlined,
-  GithubOutlined,
-  InstagramOutlined,
-  TwitterOutlined,
-  FacebookFilled,
-} from "@ant-design/icons";
+import { MessageOutlined, CodeOutlined } from "@ant-design/icons";
+
+import Icons from "./components/Icons";
 
 import matteo from "./assets/images/matteomanzinello.jpg";
 
@@ -46,36 +41,8 @@ const App = () => {
             {"matteo@manzinello.dev"}
           </Button>
 
-          <div className={"manzinello-icons"}>
-            <Button
-              href={"https://www.instagram.com/manzinello/"}
-              target="_blank"
-              rel="noopener noreferrer"
-              shape="circle"
-              icon={<InstagramOutlined />}
-            />
-            <Button
-              href={"https://twitter.com/mmanzinello"}
-              target="_blank"
-              rel="noopener noreferrer"
-              shape="circle"
-              icon={<TwitterOutlined />}
-            />
-            <Button
-              href={"https://www.facebook.com/manzinello"}
-              target="_blank"
-              rel="noopener noreferrer"
-              shape="circle"
-              icon={<FacebookFilled />}
-            />
-            <Button
-              href={"https://github.com/manzinello"}
-              target="_blank"
-              rel="noopener noreferrer"
-              shape="circle"
-              icon={<GithubOutlined />}
-            />
-          </div>
+          <Icons />
+
           <Button
             href="https://manzinello.dev"
             type="link"
