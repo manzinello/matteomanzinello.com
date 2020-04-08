@@ -18,27 +18,6 @@ p.manzinello-matteo {
   margin-bottom: 12px;
 }
 
-.a-icon {
-  color: white;
-  margin: 0 6px;
-}
-
-.a-icon:hover,
-.a-icon:focus,
-.a-icon:active {
-  color: #ccc;
-}
-
-.a-icon-facebook:hover {
-  color: #c4cde0;
-}
-.a-icon-twitter:hover {
-  color: #b2e6f9;
-}
-.a-icon-instagram:hover {
-  color: #eabfdc;
-}
-
 .manzinello-description {
   font-size: 0.7em;
   margin-top: 5px;
@@ -81,6 +60,10 @@ p.manzinello-matteo {
 .manzinello-icons {
   margin-top: 15px;
   margin-bottom: 15px;
+  a {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
 
 .manzinello-place-badge {

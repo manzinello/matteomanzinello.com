@@ -4,13 +4,16 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import { Avatar, Badge, Button, Tag } from "antd";
 
-import { MessageOutlined, CodeOutlined } from "@ant-design/icons";
-
-import ManzinelloIconLink from "./components/ManzinelloIconLink";
+import {
+  MessageOutlined,
+  CodeOutlined,
+  GithubOutlined,
+  InstagramOutlined,
+  TwitterOutlined,
+  FacebookFilled,
+} from "@ant-design/icons";
 
 import matteo from "./assets/images/matteomanzinello.jpg";
-
-import socialLinks from "./data/social-links.json";
 
 // my project
 import "mailgo";
@@ -20,23 +23,7 @@ import "@fab-ulous/github";
 
 import "./App.scss";
 
-const mapSocialLink = (iconLink, i) => {
-  let { key, type, theme, text, link, target, classes } = iconLink;
-
-  return (
-    <ManzinelloIconLink
-      key={key}
-      type={type}
-      theme={theme}
-      text={text}
-      link={link}
-      target={target}
-      classes={classes}
-    />
-  );
-};
-
-const App = (props) => {
+const App = () => {
   return (
     <>
       <Router>
@@ -60,7 +47,34 @@ const App = (props) => {
           </Button>
 
           <div className={"manzinello-icons"}>
-            {socialLinks.map(mapSocialLink)}
+            <Button
+              href={"https://www.instagram.com/manzinello/"}
+              target="_blank"
+              rel="noopener noreferrer"
+              shape="circle"
+              icon={<InstagramOutlined />}
+            />
+            <Button
+              href={"https://twitter.com/mmanzinello"}
+              target="_blank"
+              rel="noopener noreferrer"
+              shape="circle"
+              icon={<TwitterOutlined />}
+            />
+            <Button
+              href={"https://www.facebook.com/manzinello"}
+              target="_blank"
+              rel="noopener noreferrer"
+              shape="circle"
+              icon={<FacebookFilled />}
+            />
+            <Button
+              href={"https://github.com/manzinello"}
+              target="_blank"
+              rel="noopener noreferrer"
+              shape="circle"
+              icon={<GithubOutlined />}
+            />
           </div>
           <Button
             href="https://manzinello.dev"
