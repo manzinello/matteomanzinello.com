@@ -221,13 +221,16 @@ const Icons = () => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd */ "antd");
-/* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ant-design/icons */ "@ant-design/icons");
-/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_ant_design_icons__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Icons */ "./src/components/Icons.tsx");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd */ "antd");
+/* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ant-design/icons */ "@ant-design/icons");
+/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_ant_design_icons__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_Icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Icons */ "./src/components/Icons.tsx");
 var _jsxFileName = "/Users/matteo/git/matteomanzinello.com/src/pages/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -239,22 +242,73 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 // working on fab-ulous for nextjs...
 
 const Index = () => {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, __jsx("meta", {
+    name: "viewport",
+    content: "initial-scale=1.0, width=device-width",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }), __jsx("title", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }, "Matteo Manzinello"), __jsx("script", {
+    dangerouslySetInnerHTML: {
+      __html: `(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+            var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s),
+              dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+          })(window, document, "script", "dataLayer", "GTM-T2H8JL3");`
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 9
+    }
+  }), __jsx("meta", {
+    name: "description",
+    content: "27, a creative, a computer engineer, a freelance developer",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 9
+    }
+  })), __jsx("div", {
     className: "manzinello-app",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 44,
       columnNumber: 7
     }
-  }, __jsx(antd__WEBPACK_IMPORTED_MODULE_1__["Avatar"], {
+  }, __jsx(antd__WEBPACK_IMPORTED_MODULE_2__["Avatar"], {
     size: 150,
     src: "/images/matteomanzinello.jpg",
     className: "manzinello-avatar",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 45,
       columnNumber: 9
     }
   }), __jsx("p", {
@@ -262,14 +316,14 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 50,
       columnNumber: 9
     }
   }, "matteo ", __jsx("strong", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 51,
       columnNumber: 18
     }
   }, "manzinello")), __jsx("p", {
@@ -277,37 +331,37 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 53,
       columnNumber: 9
     }
   }, "27, a ", __jsx("em", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 54,
       columnNumber: 17
     }
   }, "creative"), ", a ", __jsx("em", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 54,
       columnNumber: 38
     }
   }, "computer engineer"), ", a", " ", __jsx("em", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 55,
       columnNumber: 11
     }
-  }, "freelance developer")), __jsx(antd__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+  }, "freelance developer")), __jsx(antd__WEBPACK_IMPORTED_MODULE_2__["Button"], {
     type: "primary",
-    icon: __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_2__["MessageOutlined"], {
+    icon: __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_3__["MessageOutlined"], {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35,
+        lineNumber: 59,
         columnNumber: 17
       }
     }),
@@ -317,28 +371,28 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 57,
       columnNumber: 9
     }
-  }, "matteo@manzinello.dev"), __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "matteo@manzinello.dev"), __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 67,
       columnNumber: 9
     }
-  }), __jsx(antd__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+  }), __jsx(antd__WEBPACK_IMPORTED_MODULE_2__["Button"], {
     href: "https://manzinello.dev",
     type: "link",
     target: "_blank",
     shape: "round",
     size: "small",
     className: "manzinello-dev",
-    icon: __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_2__["CodeOutlined"], {
+    icon: __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_3__["CodeOutlined"], {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52,
+        lineNumber: 76,
         columnNumber: 17
       }
     }),
@@ -346,24 +400,24 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 69,
       columnNumber: 9
     }
   }, __jsx("code", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 79,
       columnNumber: 11
     }
-  }, " manzinello.dev")), __jsx(antd__WEBPACK_IMPORTED_MODULE_1__["Badge"], {
+  }, " manzinello.dev")), __jsx(antd__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
     status: "processing",
     text: "Monza e Brianza, Italia",
     className: "manzinello-place-badge",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 81,
       columnNumber: 9
     }
   }), __jsx("div", {
@@ -371,15 +425,15 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 86,
       columnNumber: 9
     }
-  }, __jsx(antd__WEBPACK_IMPORTED_MODULE_1__["Tag"], {
+  }, __jsx(antd__WEBPACK_IMPORTED_MODULE_2__["Tag"], {
     color: "#424855",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 87,
       columnNumber: 11
     }
   }, "P.IVA 10310610968"))),  false && false);
@@ -420,6 +474,17 @@ module.exports = require("@ant-design/icons");
 /***/ (function(module, exports) {
 
 module.exports = require("antd");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 
