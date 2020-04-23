@@ -1,12 +1,12 @@
 [[redirects]]
   from = "https://matteomanzinello.netlify.com/*"
-  to = "https://matteomanzinello.com/:splat"
+  to = "https://matteomanzinello.com"
   status = 301
   force = true
   
 [[redirects]]
   from = "https://matteomanzinello.netlify.app/*"
-  to = "https://matteomanzinello.com/:splat"
+  to = "https://matteomanzinello.com"
   status = 301
   force = true
 
