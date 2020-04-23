@@ -1,11 +1,11 @@
 [[redirects]]
-  from = "https://matteomanzinello.com/tiamo"
-  to = "https://ilariaberetta.com"
+  from = "/*"
+  to = "https://matteomanzinello.com"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/*"
+  from = "*"
   to = "https://matteomanzinello.com"
   status = 301
   force = true
