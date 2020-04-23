@@ -5,6 +5,20 @@ $github-color: #24292e;
 $twitter-color: #1da1f2;
 $instagram-color: #e1306c;
 
+html {
+  background-color: #282c34;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 .manzinello-app {
   text-align: center;
   background-color: #282c34;
