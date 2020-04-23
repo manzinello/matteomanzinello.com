@@ -23,6 +23,7 @@
     "react-app-polyfill": "^1.0.6",
     "react-app-rewired": "^2.1.5",
     "react-dom": "^16.13.1",
+    "react-ga": "^2.7.0",
     "react-helmet": "^6.0.0",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
