@@ -1,14 +1,3 @@
 {
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "https://matteomanzinello.com",
-      "statusCode": 301
-    },
-    {
-      "source": "/(.*)",
-      "destination": "https://matteomanzinello.com/$1",
-      "statusCode": 301
-    }
-  ]
+  "redirects": []
 }
