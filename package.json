@@ -24,19 +24,17 @@
     "react-app-rewired": "^2.1.5",
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
-    "react-helmet": "^6.0.0",
-    "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "typescript": "^3.8.3"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "next-dev": "next dev",
-    "next-build": "next build",
-    "next-start": "next start"
+    "rewired-start": "react-app-rewired start",
+    "rewired-build": "react-app-rewired build",
+    "rewired-test": "react-app-rewired test",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "eslintConfig": {
     "extends": "react-app"
