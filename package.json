@@ -2,6 +2,7 @@
   "name": "matteomanzinello.com",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://matteomanzinello.com/",
   "dependencies": {
     "@ant-design/dark-theme": "^2.0.1",
     "@ant-design/icons": "^4.0.6",
