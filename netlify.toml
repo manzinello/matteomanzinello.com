@@ -1,16 +1,4 @@
 [[redirects]]
-  from = "https://matteomanzinello.netlify.com/*"
-  to = "https://matteomanzinello.com"
-  status = 301
-  force = true
-  
-[[redirects]]
-  from = "https://matteomanzinello.netlify.app/*"
-  to = "https://matteomanzinello.com"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "https://matteomanzinello.com/tiamo"
   to = "https://ilariaberetta.com"
   status = 301
