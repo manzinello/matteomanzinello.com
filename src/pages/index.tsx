@@ -21,6 +21,7 @@ const Index = () => {
     <>
       <div className="manzinello-app">
         <Avatar
+          alt="Matteo Manzinello"
           size={150}
           src={"/images/matteomanzinello.jpg"}
           className="manzinello-avatar"
