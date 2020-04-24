@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Head from "next/head";
 
@@ -7,6 +7,8 @@ import { Avatar, Badge, Button, Tag } from "antd";
 import { MessageOutlined, CodeOutlined } from "@ant-design/icons";
 
 import Icons from "../components/Icons";
+
+import { mailgo } from "../../../mailgo/mailgo";
 
 // my project
 // import "mailgo";
@@ -17,6 +19,10 @@ import Icons from "../components/Icons";
 // working on fab-ulous for nextjs...
 
 const Index = () => {
+  useEffect(() => {
+    mailgo();
+  }, []);
+
   return (
     <>
       <Head>
