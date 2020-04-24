@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Head from "next/head";
 
@@ -19,6 +19,10 @@ import Icons from "../components/Icons";
 // working on fab-ulous for nextjs...
 
 const Index = () => {
+  useEffect(() => {
+    // mailgo();
+  }, []);
+
   return (
     <>
       <Head>
