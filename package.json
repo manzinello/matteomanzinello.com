@@ -33,6 +33,7 @@
     "rewired-start": "react-app-rewired start",
     "rewired-build": "react-app-rewired build",
     "rewired-test": "react-app-rewired test",
+    "netlify-build": "next build && next export",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
