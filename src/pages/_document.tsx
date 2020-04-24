@@ -24,7 +24,6 @@ class MyDocument extends Document {
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
-          <title>Matteo Manzinello</title>
           <link
             rel="icon"
             type="image/png"

@@ -1,5 +1,7 @@
 import React from "react";
 
+import Head from "next/head";
+
 import { Avatar, Badge, Button, Tag } from "antd";
 
 import { MessageOutlined, CodeOutlined } from "@ant-design/icons";
@@ -19,6 +21,9 @@ import Icons from "../components/Icons";
 const Index = () => {
   return (
     <>
+      <Head>
+        <title>Matteo Manzinello</title>
+      </Head>
       <div className="manzinello-app">
         <Avatar
           alt="Matteo Manzinello"
