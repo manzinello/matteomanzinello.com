@@ -6,6 +6,8 @@ import { MessageOutlined, CodeOutlined } from "@ant-design/icons";
 
 import Icons from "../components/Icons";
 
+// import mailgo from "../../../mailgo/dist/mailgo.min.js";
+
 // my project
 // import "mailgo";
 // working on mailgo for nextjs...
