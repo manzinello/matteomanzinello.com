@@ -8,7 +8,7 @@ import { MessageOutlined, CodeOutlined } from "@ant-design/icons";
 
 import Icons from "../components/Icons";
 
-import { mailgo } from "../../../mailgo/mailgo";
+import mailgo from "../../../mailgo/mailgo.js";
 
 // my project
 // import "mailgo";
