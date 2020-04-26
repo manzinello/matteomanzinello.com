@@ -15,7 +15,7 @@
     "@types/react-router-dom": "^5.1.4",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
-    "antd": "^4.1.4",
+    "antd": "^4.1.5",
     "customize-cra": "^0.9.1",
     "mailgo": "^0.8.5",
     "next": "^9.3.5",
