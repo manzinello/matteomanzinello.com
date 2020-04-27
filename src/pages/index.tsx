@@ -70,7 +70,18 @@ const Index = () => {
         </Button>
         <Badge
           status="processing"
-          text="Monza e Brianza, Italia"
+          text={
+            <>
+              Monza e Brianza,{"  "}
+              <img
+                alt="Italia"
+                className="italy"
+                width="17"
+                height="17"
+                src="/images/italy.png"
+              />
+            </>
+          }
           className="manzinello-place-badge"
         />
         <div className={"manzinello-piva"}>

@@ -136,3 +136,8 @@ p.manzinello-matteo {
 @include icons("twitter", $twitter-color);
 @include icons("facebook", $facebook-color);
 @include icons("github", $github-color);
+
+.italy {
+  line-height: 22px;
+  padding-bottom: 2px;
+}
