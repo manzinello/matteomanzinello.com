@@ -4,7 +4,7 @@ import { AppProps } from "next/app";
 
 // import Layout from "../components/Layout";
 
-import "../App.scss";
+import "../matteomanzinello.scss";
 
 // This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }: AppProps) {
