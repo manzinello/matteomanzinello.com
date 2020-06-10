@@ -44,6 +44,10 @@ const Index = () => {
           27, a <em>creative</em>, a <em>computer engineer</em>, a{" "}
           <em>freelance developer</em>
         </p>
+        <p className={"manzinello-ing"}>
+          iscritto all'<strong>Ordine degli Ingegneri</strong>, sezione Monza e
+          Brianza
+        </p>
         <Button
           type="primary"
           icon={<MessageOutlined />}
