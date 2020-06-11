@@ -34,15 +34,25 @@ code {
   font-size: calc(10px + 2.5vmin);
   color: white;
   font-weight: 300;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  code {
+    color: white;
+  }
 }
 
-p.manzinello-matteo {
+h1.matteo-manzinello {
   margin-bottom: 12px;
 }
 
-.manzinello-description {
+h2.manzinello-description {
   font-size: 0.7em;
-  margin-top: 5px;
+  margin-top: 0px !important;
   margin-bottom: 0px;
   padding-left: 10px;
   padding-right: 10px;
@@ -50,7 +60,7 @@ p.manzinello-matteo {
 }
 
 .manzinello-ing {
-  font-size: 0.45em;
+  font-size: 0.5em;
   margin-top: 5px;
   margin-bottom: 25px;
   padding-left: 10px;

@@ -2,11 +2,13 @@ import React, { useEffect } from "react";
 
 import Head from "next/head";
 
-import { Avatar, Badge, Button, Tag } from "antd";
+import { Avatar, Badge, Button, Tag, Typography } from "antd";
 
 import { MessageOutlined, CodeOutlined } from "@ant-design/icons";
 
 import Icons from "../components/Icons";
+
+const { Title, Text } = Typography;
 
 // import mailgo, { MailgoConfig } from "../../../mailgo/mailgo.js";
 
@@ -37,17 +39,15 @@ const Index = () => {
           src={"/images/matteomanzinello.jpg"}
           className="manzinello-avatar"
         />
-        <p className="manzinello-matteo">
-          matteo <strong>manzinello</strong>
-        </p>
-        <p className={"manzinello-description"}>
+        <Title className="matteo-manzinello">matteo manzinello</Title>
+        <Title level={2} className="manzinello-description">
           27, a <em>creative</em>, a <em>computer engineer</em>, a{" "}
           <em>freelance developer</em>
-        </p>
-        <p className={"manzinello-ing"}>
+        </Title>
+        <Text className={"manzinello-ing"} code>
           iscritto all'<strong>Ordine degli Ingegneri</strong>, sezione Monza e
           Brianza
-        </p>
+        </Text>
         <Button
           type="primary"
           icon={<MessageOutlined />}
@@ -57,9 +57,7 @@ const Index = () => {
         >
           {"matteo@manzinello.dev"}
         </Button>
-
         <Icons />
-
         <Button
           href="https://manzinello.dev"
           type="link"
