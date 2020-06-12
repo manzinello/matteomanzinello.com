@@ -45,8 +45,7 @@ const Index = () => {
           <em>freelance developer</em>
         </Title>
         <Text className={"manzinello-ing"} code>
-          iscritto all'<strong>Ordine degli Ingegneri</strong>, sezione Monza e
-          Brianza
+          iscritto all'<strong>Ordine degli Ingegneri</strong>
         </Text>
         <Button
           type="primary"
