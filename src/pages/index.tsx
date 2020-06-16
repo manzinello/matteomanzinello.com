@@ -41,8 +41,7 @@ const Index = () => {
         />
         <Title className="matteo-manzinello">matteo manzinello</Title>
         <Title level={2} className="manzinello-description">
-          27, a <em>creative</em>, a <em>computer engineer</em>, a{" "}
-          <em>freelance developer</em>
+          27, creative, engineer, developer
         </Title>
         <Text className={"manzinello-ing"} code>
           iscritto all'<strong>Ordine degli Ingegneri</strong>
@@ -56,7 +55,6 @@ const Index = () => {
         >
           {"matteo@manzinello.dev"}
         </Button>
-        <Icons />
         <Button
           href="https://manzinello.dev"
           type="link"
@@ -69,6 +67,7 @@ const Index = () => {
         >
           <code>{" manzinello.dev"}</code>
         </Button>
+        <Icons />
         <Badge
           status="processing"
           text={

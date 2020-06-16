@@ -45,7 +45,7 @@ class MyDocument extends Document {
           ></script>
           <meta
             name="description"
-            content="27, a creative, a computer engineer, a freelance developer"
+            content="27, creative, engineer, developer"
           />
         </Head>
         <body>
