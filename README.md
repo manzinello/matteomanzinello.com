@@ -1,5 +1,3 @@
 # 👨🏻‍💻 matteomanzinello.com
 
-made with ❤️ and Next.js
-
-powered by _Cloudflare_
+Next.js + TypeScript + Vercel = ❤️
