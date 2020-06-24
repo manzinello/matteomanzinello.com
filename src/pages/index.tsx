@@ -8,9 +8,9 @@ import { MessageOutlined, CodeOutlined } from "@ant-design/icons";
 
 import Icons from "../components/Icons";
 
-const { Title, Text } = Typography;
+// import mailgo from "../../../mailgo";
 
-// import mailgo, { MailgoConfig } from "../../../mailgo/mailgo.js";
+const { Title, Text } = Typography;
 
 // const mailgoConfig: MailgoConfig = {};
 
@@ -24,7 +24,7 @@ const { Title, Text } = Typography;
 
 const Index = () => {
   useEffect(() => {
-    // mailgo(mailgoConfig);
+    // mailgo();
   }, []);
 
   return (
