@@ -78,6 +78,27 @@ h2.manzinello-description {
   margin-top: 10px;
 }
 
+.manzinello-hey {
+  margin-bottom: 10px;
+  background: rgb(255, 245, 202);
+  background-color: rgb(255, 245, 202);
+  border-color: rgb(255, 245, 202);
+  color: #5522fa;
+}
+
+.manzinello-hey:hover,
+.manzinello-hey:active,
+.manzinello-hey:focus,
+.manzinello-hey:visited {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 245, 202, 1) 0%,
+    rgba(254, 229, 218, 1) 100%
+  );
+  color: #5522fa;
+  border-color: rgb(255, 245, 202);
+}
+
 .manzinello-tags {
   font-size: 0.4em;
   margin-top: 20px;

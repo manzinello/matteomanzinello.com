@@ -4,7 +4,7 @@ import Head from "next/head";
 
 import { Avatar, Badge, Button, Tag, Typography } from "antd";
 
-import { MessageOutlined, CodeOutlined } from "@ant-design/icons";
+import { MessageOutlined, MailOutlined, CodeOutlined } from "@ant-design/icons";
 
 import Icons from "../components/Icons";
 
@@ -47,8 +47,18 @@ const Index = () => {
           iscritto all'<strong>Ordine degli Ingegneri</strong>
         </Text>
         <Button
+          href="mailto:manzinello@hey.com"
+          icon={<MailOutlined />}
+          className="manzinello-hey"
+          target="_blank"
+          shape="round"
+        >
+          {"manzinello@hey.com"}
+        </Button>
+        <Button
           type="primary"
-          icon={<MessageOutlined />}
+          size="small"
+          // icon={<MessageOutlined />}
           href="mailto:matteo@manzinello.dev"
           target="_blank"
           shape="round"
@@ -63,7 +73,6 @@ const Index = () => {
           size="small"
           className="manzinello-dev"
           icon={<CodeOutlined />}
-          ghost
         >
           <code>{" manzinello.dev"}</code>
         </Button>
