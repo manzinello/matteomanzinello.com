@@ -4,11 +4,11 @@ import Head from "next/head";
 
 import { Avatar, Badge, Button, Tag, Typography } from "antd";
 
-import { MessageOutlined, MailOutlined, CodeOutlined } from "@ant-design/icons";
+import { MailOutlined, CodeOutlined } from "@ant-design/icons";
 
 import Icons from "../components/Icons";
 
-// import mailgo from "../../../mailgo";
+const mailgo: any = require("mailgo");
 
 const { Title, Text } = Typography;
 
