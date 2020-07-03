@@ -8,16 +8,16 @@ import { MailOutlined, CodeOutlined } from "@ant-design/icons";
 
 import Icons from "../components/Icons";
 
-const mailgo = require("mailgo");
+import mailgo, { MailgoConfig } from "mailgo";
 
 const { Title, Text } = Typography;
 
-// const mailgoConfig: MailgoConfig = {};
+const mailgoConfig: MailgoConfig = {};
 
 const Index = () => {
   useEffect(() => {
     // console.log(mailgo);
-    mailgo();
+    mailgo(mailgoConfig);
   }, []);
 
   return (
