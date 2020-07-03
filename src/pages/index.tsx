@@ -14,14 +14,6 @@ const { Title, Text } = Typography;
 
 // const mailgoConfig: MailgoConfig = {};
 
-// my project
-// import "mailgo";
-// working on mailgo for nextjs...
-
-// also this one, but it is not good as mailgo
-// import "@fab-ulous/github";
-// working on fab-ulous for nextjs...
-
 const Index = () => {
   useEffect(() => {
     // console.log(mailgo);
