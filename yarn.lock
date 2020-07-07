@@ -7518,10 +7518,10 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-mailgo@^0.9.5:
-  version "0.9.5"
-  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.9.5.tgz#518b99b34a66605828c3f2a05229d8a6f9985821"
-  integrity sha512-Z6jtFC7Yk0qLuhrn+H5oy+bOs677CdpX7xIN++QQaWgStB9vPciAliRkFnzxppql5z2n1pItcH8kPvb6szJpKQ==
+mailgo@^0.9.6:
+  version "0.9.6"
+  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.9.6.tgz#e6c638ce11690b352a24c42a3864c623b8105f06"
+  integrity sha512-Kuwa0lOq4Lklf33jPs7eeLnc70vRRAPpDG73G58VQTAhO4zlO7+he/S8COIOAigHI3mTEOvBBBnp9WAoR9TfiQ==
 
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"
