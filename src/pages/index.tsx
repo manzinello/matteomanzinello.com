@@ -4,7 +4,7 @@ import Head from "next/head";
 
 import { Avatar, Badge, Button, Tag, Typography } from "antd";
 
-import { MailOutlined, CodeOutlined } from "@ant-design/icons";
+import { MailOutlined, MessageOutlined, CodeOutlined } from "@ant-design/icons";
 
 import Icons from "../components/Icons";
 
@@ -39,19 +39,21 @@ const Index = () => {
         <Text className={"manzinello-ing"} code>
           iscritto all'<strong>Ordine degli Ingegneri</strong>
         </Text>
-        <Button
-          href="mailto:manzinello@hey.com"
-          icon={<MailOutlined />}
-          className="manzinello-hey"
-          target="_blank"
-          shape="round"
-        >
-          {"manzinello@hey.com"}
-        </Button>
+        {false && (
+          <Button
+            href="mailto:manzinello@hey.com"
+            icon={<MailOutlined />}
+            className="manzinello-hey"
+            target="_blank"
+            shape="round"
+          >
+            {"manzinello@hey.com"}
+          </Button>
+        )}
         <Button
           type="primary"
-          size="small"
-          // icon={<MessageOutlined />}
+          // size="small"
+          icon={<MessageOutlined />}
           href="mailto:matteo@manzinello.dev"
           target="_blank"
           shape="round"
