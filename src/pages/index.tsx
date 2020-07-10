@@ -12,7 +12,9 @@ import mailgo, { MailgoConfig } from "mailgo";
 
 const { Title, Text } = Typography;
 
-const mailgoConfig: MailgoConfig = {};
+const mailgoConfig: MailgoConfig = {
+  dark: true,
+};
 
 const Index = () => {
   useEffect(() => {
