@@ -1824,10 +1824,10 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^26.0.5":
-  version "26.0.5"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.5.tgz#23a8eecf4764a770ea8d3a0d1ea16b96c822035d"
-  integrity sha512-heU+7w8snfwfjtcj2H458aTx3m5unIToOJhx75ebHilBiiQ39OIdA18WkG4LP08YKeAoWAGvWg8s+22w/PeJ6w==
+"@types/jest@^26.0.7":
+  version "26.0.7"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.7.tgz#495cb1d1818c1699dbc3b8b046baf1c86ef5e324"
+  integrity sha512-+x0077/LoN6MjqBcVOe1y9dpryWnfDZ+Xfo3EqGeBcfPRJlQp3Lw62RvNlWxuGv7kOEwlHriAa54updi3Jvvwg==
   dependencies:
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
@@ -1847,10 +1847,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.23.tgz#676fa0883450ed9da0bb24156213636290892806"
   integrity sha512-Z4U8yDAl5TFkmYsZdFPdjeMa57NOvnaf1tljHzhouaPEp7LCj2JKkejpI1ODviIAQuW4CcQmxkQ77rnLsOOoKw==
 
-"@types/node@^14.0.24":
-  version "14.0.24"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.24.tgz#b0f86f58564fa02a28b68f8b55d4cdec42e3b9d6"
-  integrity sha512-btt/oNOiDWcSuI721MdL8VQGnjsKjlTMdrKyTcLCKeQp/n4AAMFJ961wMbp+09y8WuGPClDEv07RIItdXKIXAA==
+"@types/node@^14.0.25":
+  version "14.0.25"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.25.tgz#7ad8b00a1206d6c9e94810e49f3115f0bcc30456"
+  integrity sha512-okMqUHqrMlGOxfDZliX1yFX5MV6qcd5PpRz96XYtjkM0Ws/hwg23FMUqt6pETrVRZS+EKUB5HY19mmo54EuQbA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -7523,10 +7523,10 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-mailgo@^0.9.9:
-  version "0.9.9"
-  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.9.9.tgz#f8c93e7df45b1df18822de18b4e8d0d696210258"
-  integrity sha512-7Gsq7KbnIj4OyGUc+cyjw0dQChbHAcCFxI1KA5jY+RSdcGRF2rGCAbNf2NP0t/qwV7qmhoxa7+du1uFkc1MN1A==
+mailgo@^0.9.10:
+  version "0.9.10"
+  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.9.10.tgz#b4c2cea87e9552adafc06b3b5cb3429792ccdb11"
+  integrity sha512-sThu8qiltl2Q5FIDHh+27QbyuzY04cZE6tlvf2P9ObzQT1VeyB13TLU41ei1RUCWTw30kFBeAzJe7b9r46n3WQ==
 
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"
