@@ -1949,10 +1949,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.23.tgz#676fa0883450ed9da0bb24156213636290892806"
   integrity sha512-Z4U8yDAl5TFkmYsZdFPdjeMa57NOvnaf1tljHzhouaPEp7LCj2JKkejpI1ODviIAQuW4CcQmxkQ77rnLsOOoKw==
 
-"@types/node@^14.6.3":
-  version "14.6.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.6.3.tgz#cc4f979548ca4d8e7b90bc0180052ab99ee64224"
-  integrity sha512-pC/hkcREG6YfDfui1FBmj8e20jFU5Exjw4NYDm8kEdrW+mOh0T1Zve8DWKnS7ZIZvgncrctcNCXF4Q2I+loyww==
+"@types/node@^14.6.4":
+  version "14.6.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.6.4.tgz#a145cc0bb14ef9c4777361b7bbafa5cf8e3acb5a"
+  integrity sha512-Wk7nG1JSaMfMpoMJDKUsWYugliB2Vy55pdjLpmLixeyMi7HizW2I/9QoxsPCkXl3dO+ZOVqPumKaDUv5zJu2uQ==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -7717,10 +7717,10 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
-mailgo@^0.9.15:
-  version "0.9.15"
-  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.9.15.tgz#05adba7a1c5701ee22ac0ed8863b3862f0e65b7c"
-  integrity sha512-f9uo8/ucu2rUjVUmVh3s/y50ZMngMsC74UasQYw4lkcHHg1YzAHwz/TBxgVIwQ+j1+/gtNkGTgH89CejuM3xgg==
+mailgo@^0.9.16:
+  version "0.9.16"
+  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.9.16.tgz#95afefac977049930b9302f29b9e41dc0b16710a"
+  integrity sha512-LaMY5cBTjlOfY7v9NtP3nuhxPR/PWBKaURGl1Y879zox9452rIuIDY1sHW0kY8vQau8dU87NHXlr65ijB0QQ8A==
 
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"
