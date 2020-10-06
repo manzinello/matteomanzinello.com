@@ -16,6 +16,7 @@
     "antd": "^4.6.6",
     "mailgo": "^0.9.18",
     "next": "^9.5.3",
+    "node-forge": "^0.10.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-app-polyfill": "^1.0.6",
