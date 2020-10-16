@@ -7784,10 +7784,10 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
-mailgo@^0.10.1:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.10.1.tgz#d27f5221784113534e6edc5a982a2d0801c7eb60"
-  integrity sha512-yw8kASCENdp4a0ZPfu1dAj4OrJGJtQLpWrgh/be8tuHeH0V4rW9tlwSx04H+8TjWvqtPdGUaNTWnM/iAn9PdUA==
+mailgo@^0.10.3:
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.10.3.tgz#bcad3f6d31abd6a0f2c26a63ad65da5e7aad7d74"
+  integrity sha512-D4DRqFB9pA2hN70M4y8sFi8V7lwGZbU49nxCYEofK5bryxd/LMCoxduhTfhUpTGpD+dBAEK5QF+QXkMnLO9WrA==
 
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"
@@ -10496,10 +10496,10 @@ react-error-overlay@^6.0.7:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
 
-react-ga@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.1.2.tgz#e13f211c51a2e5c401ea69cf094b9501fe3c51ce"
-  integrity sha512-OJrMqaHEHbodm+XsnjA6ISBEHTwvpFrxco65mctzl/v3CASMSLSyUkFqz9yYrPDKGBUfNQzKCjuMJwctjlWBbw==
+react-ga@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-ga/-/react-ga-3.2.0.tgz#a8ea91e8e681f49d30afcee72d71fc5c71b67d57"
+  integrity sha512-YHHG5QIzRdDToB9ST1/BrGQhLZPzkrNjoeTu3SZLgwdqzeA9F2XOStuOGXAp1ak/SAo9pyR1Uo/hY0C5wZwfqA==
 
 react-is@16.13.1, react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
