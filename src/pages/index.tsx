@@ -36,22 +36,11 @@ const Index = () => {
         />
         <Title className="matteo-manzinello">matteo manzinello</Title>
         <Title level={2} className="manzinello-description">
-          27, creative, engineer, developer
+          28, creative, engineer, developer
         </Title>
         <Text className={"manzinello-ing"} code>
           iscritto all'<strong>Ordine degli Ingegneri</strong>
         </Text>
-        {false && (
-          <Button
-            href="mailto:manzinello@hey.com"
-            icon={<MailOutlined />}
-            className="manzinello-hey"
-            target="_blank"
-            shape="round"
-          >
-            {"manzinello@hey.com"}
-          </Button>
-        )}
         <Button
           type="primary"
           // size="small"
