@@ -1,27 +1,16 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import Head from "next/head";
 
 import { Avatar, Badge, Button, Tag, Typography } from "antd";
 
-import { MailOutlined, MessageOutlined, CodeOutlined } from "@ant-design/icons";
+import { MessageOutlined, CodeOutlined } from "@ant-design/icons";
 
 import Icons from "../components/Icons";
 
-import mailgo, { MailgoConfig } from "mailgo";
-
 const { Title, Text } = Typography;
 
-const mailgoConfig: MailgoConfig = {
-  dark: true,
-};
-
 const Index = () => {
-  useEffect(() => {
-    // console.log(mailgo);
-    mailgo(mailgoConfig);
-  }, []);
-
   return (
     <>
       <Head>
