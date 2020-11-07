@@ -18,13 +18,27 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="en">
+      <Html lang="it">
         <Head>
           <link
             rel="icon"
             type="image/png"
             href="/images/matteomanzinello-favicon.png"
           />
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `var _iub = _iub || [];
+              _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"whitelabel":false,"lang":"it","siteId":2057074,"cookiePolicyId":29552893, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-bottom-right" }};`,
+            }}
+          ></script>
+          <script
+            type="text/javascript"
+            src="//cdn.iubenda.com/cs/iubenda_cs.js"
+            charSet="UTF-8"
+            async
+          ></script>
+
           <script
             dangerouslySetInnerHTML={{
               __html: `(function (w, d, s, l, i) {
