@@ -71,7 +71,25 @@ const Index = () => {
         <div className={"manzinello-piva"}>
           <Tag color="#424855">P.IVA 10310610968</Tag>
         </div>
+        <div className="privacy">
+          <a
+            target="_blank"
+            href="https://www.iubenda.com/privacy-policy/29552893"
+            title="Privacy Policy"
+            style={{ marginRight: 10 }}
+          >
+            Privacy Policy
+          </a>
+          <a
+            target="_blank"
+            href="https://www.iubenda.com/privacy-policy/29552893/cookie-policy"
+            title="Cookie Policy "
+          >
+            Cookie Policy
+          </a>
+        </div>
       </div>
+
       {false && (
         <a
           id="github-fabulous"

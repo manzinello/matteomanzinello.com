@@ -194,3 +194,12 @@ h2.manzinello-description {
   line-height: 22px;
   padding-bottom: 2px;
 }
+
+.privacy {
+  display: flex;
+  margin-top: 20px;
+  a {
+    color: white;
+    font-size: 10px;
+  }
+}
