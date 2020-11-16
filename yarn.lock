@@ -2579,10 +2579,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@^4.8.3:
-  version "4.8.3"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-4.8.3.tgz#f0c4cc4bc114359864661f01823fdb7409927739"
-  integrity sha512-Ea70RB3LmJifWtqYg4O1eSM7ypqqZS4te3du1atTEtrrvkygzOEt/u2YUgHrxdZ3xr23kGWFvIr3QjgE8smnHQ==
+antd@^4.8.4:
+  version "4.8.4"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-4.8.4.tgz#48fbf35948eb44ce74263a6c7f9db70c312a3c2d"
+  integrity sha512-7GlxN/WxJ3cE32echN+6cNgLkwtgU5/4UB1YSzhtENWH1cO8PHIJ+t1/Ba3tfa/BwWUHvA7ku/sKACwptqtw1g==
   dependencies:
     "@ant-design/colors" "^5.0.0"
     "@ant-design/css-animation" "^1.7.2"
@@ -7865,10 +7865,10 @@ magic-string@^0.25.0, magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.4"
 
-mailgo@^0.10.4:
-  version "0.10.4"
-  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.10.4.tgz#922d4aeaf612d0979c396c71203c2792417b616a"
-  integrity sha512-WaysS6YKh210noJ0uMNTvQ+XBIo08nZ/jhx+dCz/J8vqIgusNU2ysLuDRHhtv6Cm+5Rq7qFa1vVb9A+EUIx7hQ==
+mailgo@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.11.0.tgz#6e8ed191a1aacd62dcf9f01838fe6f966810778d"
+  integrity sha512-L5UKUE8ybUJiWT/1WSnW341QKQlzPVJ2qBPdcZNcyx+vgXtwgBhhWHDkmMQxyu3TEdZbXgNWrSmH3RMnlMJP6A==
 
 make-dir@^2.0.0:
   version "2.1.0"
