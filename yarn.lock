@@ -7865,10 +7865,10 @@ magic-string@^0.25.0, magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.4"
 
-mailgo@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.11.0.tgz#6e8ed191a1aacd62dcf9f01838fe6f966810778d"
-  integrity sha512-L5UKUE8ybUJiWT/1WSnW341QKQlzPVJ2qBPdcZNcyx+vgXtwgBhhWHDkmMQxyu3TEdZbXgNWrSmH3RMnlMJP6A==
+mailgo@^0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.11.1.tgz#8459a6405c96b2d8616245c4bb9853e7289b7c20"
+  integrity sha512-D5Jjx3PcvH0fYbFFKeqaMXVqY4TaQnpAQPzi3Ui2UEGC1Hq/cqBpnL9lVp3mAUrmAUQ5gebx7C/cVk8i1Ir4VA==
 
 make-dir@^2.0.0:
   version "2.1.0"
