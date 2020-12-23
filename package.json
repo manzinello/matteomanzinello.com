@@ -15,7 +15,7 @@
     "@zeit/next-sass": "^1.0.1",
     "antd": "^4.9.4",
     "mailgo": "^0.11.2",
-    "next": "^10.0.3",
+    "next": "^10.0.4",
     "node-forge": "^0.10.0",
     "react": "^17.0.1",
     "react-app-polyfill": "^2.0.0",
